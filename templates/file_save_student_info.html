@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information</title>
+
+     <style>
+    table {
+      width: 80%;
+      border: 2px solid blue
+    }
+    th, td {
+      border: 0 px solid black;
+      border-radius: 10px;
+    }
+    </style>
+
+</head>
+<body style='background:aqua'>
+
+    <h2 align='right'> Muhammad Khan </h2>
+    <h3 align='right'> Student ID: N012345 </h3> </br> </br> </br>
+    <form method="get" action="http://127.0.0.1:8000/process_data">
+    <center> Choose your program
+
+        <select name="program">
+            <option value="computer_systems" selected > Computer System Technician Program</option>
+            <option value="computer_engineering"> Computer Engineering Technology Program</option>
+            <option value="cloud_computing"> Cloud Computing - DevOps Program</option>
+            <option value="cyber_security"> Cyber Security Technology Program </option>
+            <option value="other"> Other program </option>
+        </select>
+    </center>
+        </br> </br></br>
+        <center>
+    <table>
+        <tr>
+            <td> <label id="firstname"> First Name: </label> </td>
+            <td align="center"><input type="text" name="first_name" > </td>
+        </tr>
+        <tr>
+            <td> <label id="lastname"> Last Name: </label> </td>
+            <td align="center"><input type="text" name="last_name" > </td>
+        </tr>
+        <tr>
+            <td> <label id="studentnumber"> Student Number: </label> </td>
+            <td align="center"><input type="text" name="student_number" > </td>
+        </tr>
+
+    </table>
+            </center>
+
+    </br>
+    </br>
+    </br>
+    <!-- Radio buttons to check enrollment status -->
+    <center>
+    <table>
+        <tr>
+            <td align="center"> <label > Enrolled </label> </td>
+            <td align="center"><input type="radio" name="my_status" value="enrolled"></td>
+        </tr>
+
+        <tr>
+            <td align="center"> <label > Not Enrolled </label> </td>
+            <td align="center"><input type="radio" name="my_status" value="not_enrolled"></td>
+        </tr>
+
+    </table>
+    </center>
+    </br>
+    </br>
+    </br>
+    <!-- Check boxes to check the year of study if selected -->
+
+    <center>
+
+        <label > Year 1 </label>
+        <input type="checkbox" name="year1" value="year1"> </br>
+
+        <label > Year 2 </label>
+        <input type="checkbox" name="year2" value="year2"> </br>
+
+        <label > Year 3 </label>
+        <input type="checkbox" name="year3" value="year3"> </br>
+
+        <label > Year 4 </label>
+        <input type="checkbox" name="year4" value="year4"> </br>
+
+
+    </center>
+        </br>
+        </br>
+        </br>
+        <center>
+        <table>
+            <tr>
+                <td align="center"> Save Data in File </td>
+                <td align="center"><input type="radio" name="save_data" value="save"> </td>
+            </tr>
+            <tr>
+                <td align="center"> Display Data from File </td>
+                <td align="center"><input type="radio" name="save_data" value="display"> </td>
+            </tr>
+
+        </table>
+    </center>
+    <center>
+
+        <input type="submit" value="Submit Information" >
+    </center>
+
+
+    </form>
+
+
+
+
+</body>
+</html>

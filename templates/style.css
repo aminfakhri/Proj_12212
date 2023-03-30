@@ -1,0 +1,57 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+   color: red;
+   text-align:center;
+   background-color: yellow;
+
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+h5 {
+   color: blue;
+   text-align: center;
+   background-color: yellow;
+}
+h4 {
+
+   color: green;
+   text-align: center;
+   background-color: white;
+
+}
+table {
+      width: 80%;
+      border: 2px solid blue
+    }
+    th, td {
+      border: 0 px solid black;
+      border-radius: 10px;
+    }
